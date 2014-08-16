@@ -1,3 +1,3 @@
-# Gabriel's HomePage.
+# Gabriel's Blog.
 
 <http://www.otips.me/>
