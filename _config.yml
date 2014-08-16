@@ -1,0 +1,22 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://www.otips.me
+title: Gabriel's Blog
+subtitle: A blog to record tips and ideas in my life.
+author:
+    name: Gabriel Zhang
+    email: smalldirector@gmail.com
+
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title.html
+auto: true
+rdiscount:
+    extensions: [smart]
+
+# Disqus Comments
+disqus_short_name: otips
+# Google Analytics
+google_analytics_tracking_id: UA-46712710-1
