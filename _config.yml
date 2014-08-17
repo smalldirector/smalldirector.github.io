@@ -9,10 +9,13 @@ author:
     name: Gabriel Zhang
     email: smalldirector@gmail.com
 
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
 markdown: rdiscount
-pygments: true
+highlighter: true
 permalink: /posts/:title.html
-auto: true
 rdiscount:
     extensions: [smart]
 
@@ -20,3 +23,6 @@ rdiscount:
 disqus_short_name: otips
 # Google Analytics
 google_analytics_tracking_id: UA-46712710-1
+# JiaThis Share
+jiathis_uid: 1958092
+
