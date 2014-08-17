@@ -79,3 +79,9 @@ body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+.post_copyright {
+  line-height:180%;
+  border: 1px dashed #d3d3d3;
+  background-color:#DEEBF7;
+  padding: 2px 2px 2px 2px;
+}
