@@ -25,6 +25,6 @@ sudo alternatives --config java
 
 And then you need to choose the number, then you can use the `java -version` to check the latest environment.
 
-![sudo-alternatives-config-java.png](/assets/img/posts/sudo-alternatives-config-java.png "sudo alternatives --config java")
+![sudo-alternatives-config-java.png](/assets/img/posts/sudo-alternatives-config-java.png "sudo-alternatives-config-java.png")
 
 Of course, if you want to upgrade the new Java version, for example, from Java 7 to Java 8, you can do it in the same way.
