@@ -33,6 +33,6 @@ click the debug button in the toolbar, And then you can set any breakpoint in yo
 
 ![idea-debug-solr-view.png](/assets/img/posts/idea-debug-solr-view.png "idea-debug-solr-view.png")
 
-If you want to know how to run solr source code in your IDEA, you can refer to blog [How to Run Solr Source Code in Your IDEA](http://www.otips.me/blog/2014/06/02/how-to-run-solr-source-code-in-your-idea/).
+If you want to know how to run solr source code in your IDEA, you can refer to blog [How to Run Solr Source Code in Your IDEA](http://www.otips.me/posts/how-to-run-solr-source-code-in-your-idea.html).
 
 And now, please enjoy it! Have fun hacking on Solr!
