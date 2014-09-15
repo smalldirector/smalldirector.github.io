@@ -16,7 +16,7 @@ sudo ./jdk-6u45-linux-x64.bin
 
 Then you should create one more alternative for Java, `/opt/jdk/` is your jdk home path:
 {% highlight bash %}
-sudo alternatives --install /usr/bin/java java /opt/jdk/bin/java 2000
+sudo alternatives --install /usr/bin/java java /opt/jdk/bin/java 20000
 {% endhighlight %}
 
 Then you can set the default java in this Amazon Linux AMI:
