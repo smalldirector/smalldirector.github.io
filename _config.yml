@@ -4,7 +4,7 @@ subtitle: A blog to record tips and ideas in my life.
 author: Gabriel Zhang
 email: smalldirector@yahoo.com
 
-url: http://otips.me # the base hostname & protocol for your site
+url: http://www.otips.me # the base hostname & protocol for your site
 
 # Build settings
 markdown: rdiscount
