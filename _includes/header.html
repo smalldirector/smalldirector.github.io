@@ -1,19 +1,10 @@
-<div class="navbar navbar-fixed-top">
-  <div class="navbar-inner">
-    <div class="container">
-      <a class="brand" href="/">{{ site.title }}</a>
-	<ul class="nav">
-	  <li class="active"><a href="/">Home</a></li>
-      <li ><a href="/categories.html">Categories</a></li>
-	  <li ><a href="/archive.html">Archive</a></li>
-	  <!--
-      <li ><a href="/sitemap.html">Sitemap</a></li>
-	  <li ><a href="/about.html">About</a></li>
-      -->
-	</ul>
-	<ul class="nav pull-right">
-	  <li ><a href="/atom.xml">Subscribe</a></li>
-	</ul>
-    </div>
+<header id="hdw" row="banner">
+  <div id="hd" class="cf">
+    <nav class="site-nav cf"><a href="/">Home</a><a href="/archives">Archives</a><a href="/about">About</a></nav>
+    <form action="http://google.com/search" method="get" class="search">
+      <input type="hidden" name="q" value="site:{{site.url | remove_first:'http://'}}">
+      <input type="text" name="q" placeholder="Search" class="search__input">
+    </form>
+    <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="rss"></a>
   </div>
-</div>
+</header>

@@ -1,3 +1,2 @@
-# Gabriel's Blog.
-
-<http://www.otips.me/>
+# jekyll-welcome
+A fast, simple and elegant Jekyll blog theme

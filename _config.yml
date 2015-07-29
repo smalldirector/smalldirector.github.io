@@ -1,28 +1,15 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
-url: http://www.otips.me
+# Site settings
 title: Tips &amp;&amp; Ideas
 subtitle: A blog to record tips and ideas in my life.
-author:
-    name: Gabriel Zhang
-    email: smalldirector@gmail.com
+author: Gabriel Zhang
+email: smalldirector@yahoo.com
 
-# ----------------------- #
-#    Jekyll & Plugins     #
-# ----------------------- #
+url: http://otips.me # the base hostname & protocol for your site
 
+# Build settings
 markdown: rdiscount
-highlighter: true
-permalink: /posts/:title.html
-rdiscount:
-    extensions: [smart]
+highlighter: pygments
+paginate: 5
 
-# Disqus Comments
-disqus_short_name: otips
 # Google Analytics
 google_analytics_tracking_id: UA-46712710-1
-# JiaThis Share
-jiathis_uid: 1958092
-

@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /assets
-Allow: /posts
-Sitemap: http://www.otips.me/sitemap.txt
-Sitemap: http://www.otips.me/atom.xml

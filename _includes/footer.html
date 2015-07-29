@@ -1,3 +1,6 @@
-<div id="footer">
-  {{ site.author.name}} © {{ site.time | date: "%Y" }}, Power by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://twitter.github.com/bootstrap/">Bootstrap</a>.
-</div>
+<footer id="ftw">
+  <div id="ft">
+    &copy; {{ site.time | date: '%Y' }}<span id="copyright">{{ site.author }}</span>All rights reserved.
+  </div>
+</footer>
+{% include google-analytics.html %}
